@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container" style="z-index: 1000;">
+    <div class="section">
+        <h2>Start Section</h2>
+        <select id="StartSection">
+            <option value="Produce">Produce</option>
+            <option value="Meat">Meat</option>
+            <option value="Frozen Foods">Frozen Foods</option>
+            <option value="Bakery">Bakery</option>
+            <option value="Canned Goods">Canned Goods</option>
+            <option value="Dry Goods">Dry Goods</option>
+            <option value="Health & Beauty">Health & Beauty</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Household">Household</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Checkout">Checkout</option>
+        </select>
+    </div>
+    <div class="section">
+        <h2>Goal Section</h2>
+        <select id="GoalSection">
+            <option value="Meat">Meat</option>
+            <option value="Frozen Foods">Frozen Foods</option>
+            <option value="Bakery">Bakery</option>
+            <option value="Canned Goods">Canned Goods</option>
+            <option value="Dry Goods">Dry Goods</option>
+            <option value="Health & Beauty">Health & Beauty</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Household">Household</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Checkout">Checkout</option>
+        </select>
+    </div>
+    <button id="FindRouteBtn">Find Route</button>
+</div>
+<div class="MapContainer" id="MapContainer">
+    <h2>Store Map</h2>
+    <div class="map" id="Map">
+        <canvas id="Canvas"></canvas>
+        <div class="map-item" id="produce">Produce</div>
+        <div class="map-item" id="meat">Meat</div>
+        <div class="map-item" id="frozen-foods">Frozen Foods</div>
+        <div class="map-item" id="bakery">Bakery</div>
+        <div class="map-item" id="canned-goods">Canned Goods</div>
+        <div class="map-item" id="dry-goods">Dry Goods</div>
+        <div class="map-item" id="health-beauty">Health & Beauty</div>
+        <div class="map-item" id="electronics">Electronics</div>
+        <div class="map-item" id="household">Household</div>
+        <div class="map-item" id="clothing">Clothing</div>
+        <div class="map-item checkout" id="checkout">Checkout</div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
